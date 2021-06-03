@@ -1,0 +1,31 @@
+{
+  "name": "swimfast",
+  "version": "1.0.0",
+  "description": "scraper /  UI upgrade for Hy-Tec swim meet tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start",
+    "start:dev": "nodemon --watch ./config --watch ./lib --watch server --watch views --watch app start"
+  },
+  "author": "Will Benish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "browser-sync": "^2.26.14",
+    "cheerio": "^1.0.0-rc.9",
+    "es6-promise": "^4.0.5",
+    "express": ">=4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-run": "^1.7.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.6.0",
+    "lodash": "^4.17.21",
+    "reactify": "^1.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.4",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^4.0.0"
+  }
+}
